@@ -57,9 +57,6 @@ Media in this folder may include:
 These updates were implemented based on **lessons learned from the earlier rover design**, with a focus on durability and competition readiness.
 
 
-
-Here’s a **matching section for the older rover**, with a heading and emoji bullet points so it pairs nicely with the new design section:
-
 ---
 
 ## 🧰 Previous Rover Design
