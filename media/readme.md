@@ -36,3 +36,7 @@ Media in this folder may include:
 ## 📌 Tip
 
 > **If it helps explain or show the project, it belongs in `media/`.**
+
+![IMG_9788](https://github.com/user-attachments/assets/e458320b-950c-4a6c-95e5-a2cfe85c5cfa)
+
+
