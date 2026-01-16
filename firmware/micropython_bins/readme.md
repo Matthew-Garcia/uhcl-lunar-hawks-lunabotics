@@ -40,6 +40,3 @@ These `.bin` files are flashed **before** uploading any `boot.py` or `main.py` r
 
 > **`.bin` files flash MicroPython — `boot.py` and `main.py` run MicroPython.**
 
-
-You’re doing this *exactly* how a clean senior project repo should look 💯
-
