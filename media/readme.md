@@ -37,4 +37,13 @@ Media in this folder may include:
 
 > **If it helps explain or show the project, it belongs in `media/`.**
 
+---
+
+
+![IMG_9788](https://github.com/user-attachments/assets/a8b5f6ba-8b9f-4258-8728-7bc07474a053)
+
+New rover design compared to our previous iteration.
+This updated design features a more robust chassis, improved drivetrain layout, and an integrated chain-driven excavation and linear actuator system. The changes were made to improve structural rigidity, serviceability, and overall reliability based on lessons learned from the earlier rover design.
+
+---
 
