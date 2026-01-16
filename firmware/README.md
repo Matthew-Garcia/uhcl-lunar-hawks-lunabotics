@@ -47,6 +47,8 @@ After flashing, runtime files are uploaded separately.
 
 Runtime files for the **ESP32-WROOM rover controller**.
 
+![esp32_wroom](https://github.com/user-attachments/assets/f7b276a8-e1b6-4f32-987b-851161840848)
+
 Includes:
 
 * `boot.py` – safe startup and Wi-Fi connection
@@ -60,6 +62,8 @@ These files live on the ESP32’s internal flash and execute under MicroPython.
 ## 🧪 `esp32_s3/flash/`
 
 Runtime files for the **ESP32-S3**, used for **non-rover / earlier development and testing**.
+
+![esp32_s3](https://github.com/user-attachments/assets/2a5e210d-57bb-4e45-ac03-9d9507b15d2d)
 
 Includes:
 
