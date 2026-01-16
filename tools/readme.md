@@ -63,5 +63,4 @@ Contains **supporting documentation** related to tool usage, setup, or drivers (
 ## 📌 Rule of Thumb
 
 > **If it helps you develop, test, or control the rover—but isn’t firmware or ROS—it lives in `tools/`.**
-Your repo is now extremely well organized — this looks like a real robotics team codebase 💯
 
