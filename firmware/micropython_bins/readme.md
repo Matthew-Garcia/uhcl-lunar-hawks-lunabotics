@@ -22,6 +22,8 @@ These `.bin` files are flashed **before** uploading any `boot.py` or `main.py` r
 * MicroPython firmware for **ESP32-S3**
 * Used for **non-rover / earlier development and testing**
 * Supports WebSocket-based control code
+![esp32_s3](https://github.com/user-attachments/assets/22149a1e-4395-4e5a-8a90-0cf1c152aaa1)
+
 
 ---
 
