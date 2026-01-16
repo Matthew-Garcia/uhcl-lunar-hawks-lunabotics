@@ -1,30 +1,82 @@
-# Firmware – UHCL Lunar Hawks Lunabotics
+# 🔧 Firmware – UHCL Lunar Hawks Lunabotics
 
-This folder contains **precompiled MicroPython firmware binaries** used for flashing the ESP32 boards used in development and testing.
-
----
-
-## Files
-
-### `ESP32_GENERIC-20250911-v1.26.1.bin`
-
-* MicroPython firmware for **ESP32 (WROOM / generic ESP32)**
-* Used for the **Lunabotics rover controller**
-* Flashed before uploading `boot.py`, `main.py`, and `test.py`
+This directory contains all **ESP32-related firmware** used in the UHCL Lunar Hawks Lunabotics project.
+It includes both **MicroPython firmware binaries** (used to flash boards) and **runtime files** that execute directly on the ESP32 hardware.
 
 ---
 
-### `ESP32_GENERIC_S3-20250911-v1.26.1.bin`
+## 📁 Directory Structure
 
-* MicroPython firmware for **ESP32-S3**
-* Used for **non-rover / earlier testing and development**
-* Supports WebSocket-based `v/w` (linear & rotational velocity) control
+```
+firmware/
+├── micropython_bins/
+│   ├── ESP32_GENERIC-20250911-v1.26.1.bin
+│   ├── ESP32_GENERIC_S3-20250911-v1.26.1.bin
+│   └── readme.md
+│
+├── esp32_wroom/
+│   └── flash/
+│       ├── boot.py
+│       ├── main.py
+│       └── test.py
+│
+└── esp32_s3/
+    └── flash/
+        ├── boot.py
+        └── main.py
+```
 
 ---
 
-## Notes
+## 🔌 `micropython_bins/`
 
-* Firmware compiled for **MicroPython v1.26.1**
-* Boards are flashed using `esptool.py` or equivalent tools
-* Code is uploaded after flashing using tools such as **mpremote** or **Thonny**
+Contains **precompiled MicroPython `.bin` files** used to flash ESP32 boards.
 
+* These files are flashed **once** (or when updating MicroPython)
+* Flashing is done using tools such as:
+
+  * `esptool.py`
+  * Thonny
+  * ESP-IDF tools
+
+After flashing, runtime files are uploaded separately.
+
+---
+
+## 🤖 `esp32_wroom/flash/`
+
+Runtime files for the **ESP32-WROOM rover controller**.
+
+Includes:
+
+* `boot.py` – safe startup and Wi-Fi connection
+* `main.py` – rover control logic (linear & rotational velocity, motor control, tank turns, actuators, WebSocket server)
+* `test.py` – standalone wheel and motor test utility
+
+These files live on the ESP32’s internal flash and execute under MicroPython.
+
+---
+
+## 🧪 `esp32_s3/flash/`
+
+Runtime files for the **ESP32-S3**, used for **non-rover / earlier development and testing**.
+
+Includes:
+
+* `boot.py` – Wi-Fi setup
+* `main.py` – WebSocket-based linear (`v`) and rotational (`w`) velocity control for a simpler differential-drive setup
+
+---
+
+## ⚠️ Important Notes
+
+* ESP32 firmware files **do NOT belong in `ros2_ws/src`**
+* ROS 2 nodes (e.g. `controller.py`) run on the **computer**, not on the ESP32
+* Only one `main.py` runs automatically on an ESP32 at a time
+
+---
+
+## 📌 Rule of Thumb
+
+> **If it runs on the ESP32 → it belongs in `firmware/`.
+> If it runs in ROS → it belongs in `ros2_ws/src`.**
