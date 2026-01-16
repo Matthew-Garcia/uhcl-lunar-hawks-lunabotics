@@ -2,7 +2,7 @@ import time
 from machine import Pin, PWM
 
 # ==================================================
-# SAME PIN DEFINITIONS AS YOUR MAIN
+# SAME PIN DEFINITIONS AS MAIN
 # ==================================================
 DIR_FR = Pin(2, Pin.OUT)
 DIR_FL = Pin(4, Pin.OUT)
