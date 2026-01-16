@@ -56,3 +56,27 @@ Media in this folder may include:
 
 These updates were implemented based on **lessons learned from the earlier rover design**, with a focus on durability and competition readiness.
 
+
+
+Here’s a **matching section for the older rover**, with a heading and emoji bullet points so it pairs nicely with the new design section:
+
+---
+
+## 🧰 Previous Rover Design
+
+![old_rover_design](https://github.com/user-attachments/assets/df4396d6-84d2-44a3-b48b-cd9e321dac3c)
+
+**Earlier rover design used prior to the current iteration.**
+
+### ⚙️ Characteristics
+
+* 🧊 **Compact aluminum frame** with enclosed electronics bay
+* 🛞 **Direct-drive wheel configuration** without an integrated excavation system
+* 🧠 **Electronics-first layout**, focused on initial control and communication testing
+* 🧪 **Prototype platform** for validating motor control, power distribution, and ESP32-based firmware
+* 🔍 **Limited serviceability**, which informed improvements in the newer design
+
+This version served as a **proof-of-concept platform**, helping identify mechanical, electrical, and software limitations that directly influenced the improvements made in the current rover design.
+
+
+
