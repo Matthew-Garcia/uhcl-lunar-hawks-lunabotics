@@ -6,10 +6,8 @@
 
 import network, time
 
-SSID = "Team23"
-#"Mr Jiggys"        # ← Change this to your Wi-Fi name
-PASSWORD = "uhclgambit"
-# "Spaceman466"    # ← Change this to your Wi-Fi password
+SSID = "Team23"           # ← Change this to your Wi-Fi name
+PASSWORD = "uhclgambit"   # ← Change this to your Wi-Fi password
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
