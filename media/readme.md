@@ -33,12 +33,6 @@ Media in this folder may include:
 
 ---
 
-## 📌 Tip
-
-> **If it helps explain or show the project, it belongs in `media/`.**
-
-
----
 
 ## 🚀 Rover Design Update
 
