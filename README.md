@@ -2,6 +2,7 @@
 
 🚀 Official development workspace for the University of Houston–Clear Lake (UHCL) Lunar Hawks
 NASA Lunabotics Competition rover.
+<img width="1024" height="1024" alt="UHCL_Lunabotics" src="https://github.com/user-attachments/assets/68e6a4ce-1887-474b-bf27-83c9a26805da" />
 
 ## Project Focus
 - ROS 2–based rover architecture
