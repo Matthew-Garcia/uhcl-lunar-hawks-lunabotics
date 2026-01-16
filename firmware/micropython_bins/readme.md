@@ -13,6 +13,7 @@ These `.bin` files are flashed **before** uploading any `boot.py` or `main.py` r
 * MicroPython firmware for **ESP32 (WROOM / generic ESP32)**
 * Used for the **Lunabotics rover controller**
 * Flashed prior to uploading rover runtime files (`boot.py`, `main.py`, `test.py`)
+![esp32_wroom](https://github.com/user-attachments/assets/a0298b6b-bdad-490d-961e-675aac871552)
 
 ---
 
