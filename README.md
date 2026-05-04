@@ -49,7 +49,7 @@ As the **Systems Integration Lead**, my focus was on creating a robust interface
 
 ## 👷 Lead Maintainer
 **Matthew Garcia** *Computer Engineering Graduate (B.S. May 2026)* University of Houston–Clear Lake  
-[Portfolio](https://matthew-garcia-portfolio.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/matthew-garcia-ce/)
+[Portfolio](https://matthew-garcia-portfolio.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/matthew-garcia-165634195/).
 
 ---
 <p align="center">Built with 💙 by the UHCL Lunar Hawks Electrical & Software Team</p>
