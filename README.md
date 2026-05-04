@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics Stack</h1>
+<h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics</h1>
 
 <p align="center">
   <strong>The official development workspace for the University of Houston–Clear Lake (UHCL) robotic lunar excavator.</strong>
