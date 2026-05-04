@@ -4,10 +4,10 @@
   </a>
 </p>
 
-<h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics</h1>
+<h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics Stack</h1>
 
 <p align="center">
-  <strong>The official development workspace for the University of Houston–Clear Lake (UHCL) robotic lunar excavator.</strong>
+  <strong>Official development workspace for the University of Houston–Clear Lake (UHCL) robotic lunar excavator.</strong>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Hardware-Jetson%20Orin%20NX-green?style=flat-square&logo=nvidia" alt="Jetson Orin NX Guide">
   </a>
   <a href="https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf">
-    <img src="https://img.shields.io/badge/Firmware-ESP32%20(Micro--ROS)-red?style=flat-square&logo=espressif" alt="ESP32 WROOM Datasheet">
+    <img src="https://img.shields.io/badge/Firmware-ESP32-red?style=flat-square&logo=espressif" alt="ESP32 WROOM Datasheet">
   </a>
 </p>
 
@@ -49,34 +49,34 @@ As the Systems Integration lead, I managed the interface between the high-level 
 
 ## 🛠️ System Architecture
 
-### 🧠 High-Level Compute
-* **NVIDIA Jetson Orin NX:** Primary compute module for LiDAR processing, SLAM, and autonomy.
+### 💻 Laptop (`uros_ws`)
+**Role:** Development & Firmware Compilation.
+* **Firmware:** Micro-ROS implementation for ESP32.
+* **Primary Task:** Subscribing to `cmd_vel` (Twist messages) and converting them to motor PWM signals.
 <p align="left">
-  <img src="./assets/Jetson_Orin_NX.webp" width="300" alt="Jetson Orin NX">
+  <img src="./assets/ESP32_WROOM.jpg" width="250" alt="ESP32 WROOM">
 </p>
 
-### 🤖 Middleware
-* **ROS 2 Humble:** Distributed architecture for navigation, sensor fusion, and inter-process communication.
+### 🧠 NVIDIA Jetson Orin NX (`lunabotics_ws`)
+**Role:** Primary Compute & Control Hub.
+* **Middleware:** ROS 2 Humble.
+* **Primary Task:** Processing sensor data and executing navigation via `teleop.yaml`.
 <p align="left">
-  <img src="./assets/ROS2_Humble.webp" width="300" alt="ROS 2 Humble">
-</p>
-
-### 🔌 Embedded Control
-* **ESP32 (Micro-ROS):** Real-time motor control and sensor feedback nodes communicating over a Micro-ROS bridge.
-<p align="left">
-  <img src="./assets/ESP32_WROOM.jpg" width="300" alt="ESP32 WROOM">
+  <img src="./assets/Jetson_Orin_NX.webp" width="250" alt="Jetson Orin NX">
 </p>
 
 ---
 
 ## 📂 Repository Structure
-| Directory | Description |
+
+| Folder | Contents |
 | :--- | :--- |
-| `ros2_ws/` | Main ROS 2 workspace, navigation nodes, and custom message definitions. |
-| `firmware/` | Micro-ROS firmware for ESP32 motor drivers and sensor suites. |
-| `hardware/` | Pinout diagrams, electrical schematics, and PDU maps. |
-| `simulation/` | URDF models and Gazebo environments for digital twin validation. |
-| `docs/` | Systems Engineering Paper and technical documentation. |
+| **`Laptop/`** | Micro-ROS source code (`app.c`) and firmware build configurations. |
+| **`Nvidia Jetson Orin NX/`** | ROS 2 `lunabotics_ws`, navigation nodes, and `teleop.yaml`. |
+| **`assets/`** | Project logos, hardware images, and technical badges. |
+| **`docs/`** | NASA Systems Engineering papers and technical schematics. |
+
+---
 
 ## 👷 Lead Maintainer
 **Matthew Garcia** *Computer Engineering Graduate (B.S. May 2026)* University of Houston–Clear Lake  
