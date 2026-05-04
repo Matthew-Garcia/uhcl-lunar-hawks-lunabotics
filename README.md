@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/68e6a4ce-1887-474b-bf27-83c9a26805da" width="300" alt="UHCL Lunar Hawks Logo">
+  <img src="./assets/UHCL_Lunabotics_Logo.jfif" width="350" alt="UHCL Lunar Hawks Logo">
 </p>
 
 <h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics Stack</h1>
@@ -12,7 +12,7 @@
   <a href="https://matthew-garcia-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
   </a>
-  <a href="https://www.linkedin.com/in/matthew-garcia-ce/">
+  <a href="https://www.linkedin.com/in/matthew-garcia-165634195/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
@@ -29,6 +29,15 @@
 This repository houses the software and electrical architecture for the **Lunar Hawks** rover, built for the [NASA Lunabotics Competition](https://www.nasa.gov/learning-resources/lunabotics-challenge/). 
 
 The challenge requires collegiate teams to apply the **NASA Systems Engineering** process to design and build a prototype robot capable of navigating a simulated lunar environment, excavating regolith, and constructing berm structures to support future Artemis missions.
+
+## 🤖 The Hardware
+As the Systems Integration lead, I managed the interface between the high-level ROS 2 stack and the physical rover chassis.
+
+<p align="center">
+  <img src="./assets/UHCL_Lunabotics_Rover.jfif" width="600" alt="UHCL NASA Lunabotics Rover Prototype">
+  <br>
+  <em>The Lunar Hawks autonomous rover prototype featuring Jetson Orin Nano and LiDAR integration.</em>
+</p>
 
 ## 🛠️ System Architecture
 As the **Systems Integration Lead**, my focus was on creating a robust interface between high-level autonomy and low-level electromechanical control.
@@ -49,7 +58,7 @@ As the **Systems Integration Lead**, my focus was on creating a robust interface
 
 ## 👷 Lead Maintainer
 **Matthew Garcia** *Computer Engineering Graduate (B.S. May 2026)* University of Houston–Clear Lake  
-[Portfolio](https://matthew-garcia-portfolio.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/matthew-garcia-165634195/).
+[Portfolio](https://matthew-garcia-portfolio.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/matthew-garcia-165634195/)
 
 ---
 <p align="center">Built with 💙 by the UHCL Lunar Hawks Electrical & Software Team</p>
