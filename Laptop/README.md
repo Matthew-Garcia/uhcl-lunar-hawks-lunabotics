@@ -36,14 +36,15 @@ $$PWM = |V_{side}| \cdot 200.0$$
 ## 🚀 Build & Flash Procedure
 Execution flow within the `uros_ws` on the HP Victus:
 
-1.  **Configure:** ```bash
+1.  **Configure:**
+    ```bash
     ros2 run micro_ros_setup configure_firmware.sh twist_subscriber --transport serial
     ```
-2.  **Build:**
+3.  **Build:**
     ```bash
     ros2 run micro_ros_setup build_firmware.sh
     ```
-3.  **Flash:**
+4.  **Flash:**
     ```bash
     ros2 run micro_ros_setup flash_firmware.sh
     ```
