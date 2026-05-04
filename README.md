@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./assets/UHCL_Lunabotics_Logo.jfif" width="350" alt="UHCL Lunar Hawks Logo">
+  <a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/">
+    <img src="./assets/UHCL_Lunabotics_Logo.jfif" width="350" alt="UHCL Lunar Hawks Logo">
+  </a>
 </p>
 
 <h1 align="center">🚀 UHCL Lunar Hawks – NASA Lunabotics Stack</h1>
@@ -18,9 +20,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat-square&logo=ros" alt="ROS 2">
-  <img src="https://img.shields.io/badge/Hardware-Jetson%20Orin%20Nano-green?style=flat-square&logo=nvidia" alt="Jetson">
-  <img src="https://img.shields.io/badge/Firmware-ESP32%20(Micro--ROS)-red?style=flat-square&logo=espressif" alt="ESP32">
+  <a href="https://docs.ros.org/en/humble/index.html">
+    <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat-square&logo=ros" alt="ROS 2 Documentation">
+  </a>
+  <a href="https://docs.nvidia.com/jetson/archives/r35.2.1/DeveloperGuide/text/HR/JetsonModuleAdaptationAndBringUp/JetsonOrinNxSeries.html">
+    <img src="https://img.shields.io/badge/Hardware-Jetson%20Orin%20Nano-green?style=flat-square&logo=nvidia" alt="Jetson Orin Developer Guide">
+  </a>
+  <a href="https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf">
+    <img src="https://img.shields.io/badge/Firmware-ESP32%20(Micro--ROS)-red?style=flat-square&logo=espressif" alt="ESP32 WROOM Datasheet">
+  </a>
 </p>
 
 ---
