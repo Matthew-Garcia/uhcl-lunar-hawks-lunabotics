@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat-square&logo=ros" alt="ROS 2 Documentation">
   </a>
   <a href="https://docs.nvidia.com/jetson/archives/r35.2.1/DeveloperGuide/text/HR/JetsonModuleAdaptationAndBringUp/JetsonOrinNxSeries.html">
-    <img src="https://img.shields.io/badge/Hardware-Jetson%20Orin%20Nano-green?style=flat-square&logo=nvidia" alt="Jetson Orin Developer Guide">
+    <img src="https://img.shields.io/badge/Hardware-Jetson%20Orin%20NX-green?style=flat-square&logo=nvidia" alt="Jetson Orin NX Guide">
   </a>
   <a href="https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf">
     <img src="https://img.shields.io/badge/Firmware-ESP32%20(Micro--ROS)-red?style=flat-square&logo=espressif" alt="ESP32 WROOM Datasheet">
@@ -44,16 +44,30 @@ As the Systems Integration lead, I managed the interface between the high-level 
 <p align="center">
   <img src="./assets/UHCL_Lunabotics_Rover.jfif" width="600" alt="UHCL NASA Lunabotics Rover Prototype">
   <br>
-  <em>The Lunar Hawks autonomous rover prototype featuring Jetson Orin Nano and LiDAR integration.</em>
+  <em>The Lunar Hawks autonomous rover prototype featuring Jetson Orin NX and LiDAR integration.</em>
 </p>
 
 ## 🛠️ System Architecture
-As the **Systems Integration Lead**, my focus was on creating a robust interface between high-level autonomy and low-level electromechanical control.
 
-* **Compute:** NVIDIA Jetson Orin Nano for LiDAR processing, SLAM, and autonomy.
-* **Embedded:** ESP32 nodes running **Micro-ROS** to handle real-time motor control and sensor feedback.
-* **Navigation:** LiDAR-based obstacle detection and cost-map generation.
-* **Power:** Modular power distribution system with integrated E-Stop safety protocols and voltage regulation.
+### 🧠 High-Level Compute
+* **NVIDIA Jetson Orin NX:** Primary compute module for LiDAR processing, SLAM, and autonomy.
+<p align="left">
+  <img src="./assets/Jetson_Orin_NX.webp" width="300" alt="Jetson Orin NX">
+</p>
+
+### 🤖 Middleware
+* **ROS 2 Humble:** Distributed architecture for navigation, sensor fusion, and inter-process communication.
+<p align="left">
+  <img src="./assets/ROS2_Humble.webp" width="300" alt="ROS 2 Humble">
+</p>
+
+### 🔌 Embedded Control
+* **ESP32 (Micro-ROS):** Real-time motor control and sensor feedback nodes communicating over a Micro-ROS bridge.
+<p align="left">
+  <img src="./assets/ESP32_WROOM.jpg" width="300" alt="ESP32 WROOM">
+</p>
+
+---
 
 ## 📂 Repository Structure
 | Directory | Description |
